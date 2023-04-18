@@ -45,7 +45,7 @@ if($user){
         'Id' => rand(),
         'email' => $email,
         'name' => explode('@',$email)[0],
-        'password' => $password
+        'password' => password_hash($password, PASSWORD_BCRYPT)
     ]
 );
 
