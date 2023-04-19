@@ -51,9 +51,9 @@ if($user){
 
 //mark user has logged in
 
-$_SESSION['user'] = [
-    'email' => $email
-];
+login([
+    'email'=> $email
+]);
 
 header('location: /');
 exit();
