@@ -1,0 +1,16 @@
+{
+    "name": "taylorjwindsor/dynamic-web",
+    "authors": [
+        {
+            "name": "Taylor Windsor",
+            "email": "taylorjwindsor@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
